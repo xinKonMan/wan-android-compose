@@ -14,8 +14,8 @@ android {
         applicationId = "com.xinkon.wancompose"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = project.properties["VERSION_CODE"].toString().toInt()
+        versionName = project.properties["VERSION_NAME"].toString()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {

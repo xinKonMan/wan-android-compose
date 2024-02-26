@@ -71,6 +71,7 @@ module-app-libs = [
     "eventbus",
     "mmkv",
     "permissionx",
+    "coil-compose",
 
 ]
 

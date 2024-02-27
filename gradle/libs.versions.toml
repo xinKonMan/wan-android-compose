@@ -22,7 +22,7 @@ retrofit = "2.9.0"
 okhttp = "5.0.0-alpha.11"
 okdownload = "1.0.7"
 camerax = "1.1.0-beta03"
-nav_version = "2.6.0"
+nav_version = "2.7.7"
 firebase_bom_version = "32.1.1"
 activity_version = "1.8.2"
 fragment_version = "1.6.1"
@@ -56,6 +56,7 @@ module-app-libs = [
     "lifecycle-viewmodel",
     "androidx-navigation-ui-ktx",
     "androidx-navigation-fragment-ktx",
+    "androidx-navigation-compose",
 
     "compose-ui", "compose-ui-tooling",
     "androidx-activity-compose",
@@ -90,6 +91,7 @@ androidx-activity-compose = { group = "androidx.activity", name = "activity-comp
 androidx-media = "androidx.media:media:1.6.0"
 androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "nav_version" }
 androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "nav_version" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "nav_version" }
 
 compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
 compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics", version.ref = "compose" }
